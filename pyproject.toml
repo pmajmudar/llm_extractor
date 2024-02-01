@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "llm-extractor"
+version = "0.1.0"
+description = "Extraction of structured information from unstructured documents"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.31.0"
+lxml = "^5.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
